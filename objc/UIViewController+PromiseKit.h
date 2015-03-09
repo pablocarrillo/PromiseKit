@@ -14,8 +14,6 @@
 
     pod "PromiseKit"
 */
-@interface PMKUIImagePickerControllerDelegate : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
-@end
 @interface UIViewController (PromiseKit)
 
 /**
@@ -52,4 +50,7 @@
 
 - (PMKPromise *)promiseSegueWithIdentifier:(NSString*) identifier sender:(id) sender NS_AVAILABLE_IOS(5_0) PMK_DEPRECATED("This method is considered unsafe and will be removed.");
 
+@end
+
+@interface PMKUIImagePickerControllerDelegate : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @end
