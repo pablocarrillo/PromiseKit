@@ -12,9 +12,6 @@ static const char *kSegueRejecter = "kSegueRejecter";
 @interface PMKMFDelegater : NSObject
 @end
 
-@interface PMKUIImagePickerControllerDelegate : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
-@end
-
 
 @implementation UIViewController (PromiseKit)
 

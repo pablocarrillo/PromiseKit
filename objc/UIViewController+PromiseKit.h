@@ -14,6 +14,8 @@
 
     pod "PromiseKit"
 */
+@interface PMKUIImagePickerControllerDelegate : NSObject <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@end
 @interface UIViewController (PromiseKit)
 
 /**
